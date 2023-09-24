@@ -17,7 +17,7 @@ export default async function Home() {
           <h1 className="text-4xl font-extrabold">
             Car Catalogue
           </h1>
-          {/* <p>Explore our vast car collection</p> */}
+          <p>Explore our vast car collection</p>
         </div>
 
         <div className="home__filters">
