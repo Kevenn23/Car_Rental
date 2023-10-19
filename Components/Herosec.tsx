@@ -10,7 +10,7 @@ const Herosec = () => {
 
 
   return (
-    <div className="flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] mx-auto">
+    <div className="hero border-black-100 border-8">
         <div className="flex-1 pt-36 padding-x">
             <h1 className="hero__title">
             Discover the future of car rentals!
@@ -27,10 +27,10 @@ const Herosec = () => {
             />
         </div>
         <div className="hero__image-container">
-        <div className="hero__image">
-            <Image src="/hero.png" alt="Hero-img" 
-            fill className="object-contain"/>
-        </div>
+            <div className="hero__image">
+                <Image src="/hero.png" alt="Hero-img" 
+                fill className="object-contain"/>
+            </div>
 
             <div className="hero__image-overlay">
             </div>
