@@ -1,5 +1,5 @@
 
-import { CustomFilter, Herosec, SearchBar, CarCard } from '@/Components'
+import { CustomFilter, Herosec, SearchBar, CarCard, NavBar } from '@/Components'
 import Image from 'next/image'
 import { fetchcars } from '@/utils';
 
@@ -10,6 +10,7 @@ export default async function Home() {
 
   return (
     <main className=" overflow-hidden ">
+      <NavBar />
       <Herosec />
 
       {/* <div className="mt-12 padding-x padding-y max-width" id="discover">
