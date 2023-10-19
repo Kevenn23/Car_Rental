@@ -12,15 +12,15 @@ export default async function Home() {
     <main className=" overflow-hidden ">
       <Herosec />
 
-      <div className="mt-12 padding-x padding-y max-width" id="discover">
+      {/* <div className="mt-12 padding-x padding-y max-width" id="discover">
         <div className="home__text-container">
           <h1 className="text-4xl font-extrabold">
             Car Catalogue
           </h1>
           <p>Explore our vast car collection</p>
-        </div>
+        </div> */}
 
-        <div className="home__filters">
+        {/* <div className="home__filters">
           <SearchBar />
 
           <div className="home__filter-container">
@@ -41,10 +41,10 @@ export default async function Home() {
             <h2 className=" text-black text-xl  ">Oops, error</h2>
             <p>{allCars?.message}</p>
           </div>
-        )}
+        )} */}
 
 
-      </div>
+      {/* </div> */}
     </main>
   )
 }
